@@ -98,3 +98,4 @@ d3.json(earthquakes7Days).then(function(data) {
         }
     }).addTo(map);
   });
+
