@@ -73,12 +73,3 @@ d3.json(earthquakes7Days).then(function(data) {
     style: styleInfo
   }).addTo(map);
   });
-
-  // L.geoJSON(data, {
-  //   style: myStyle,
-  //   onEachFeature: function(feature, layer) {
-  //     layer.bindPopup("<h3>Neighborhood: " + feature.properties.AREA_NAME + "</h3>");
-  //   }
-  // })
-  // .addTo(map);
-// });
